@@ -1,0 +1,72 @@
+body{
+    background-color: rgb(255, 255, 255);
+    padding: 3rem 2rem;
+    font-size: 1.6rem;
+}
+
+.big-container{
+    border: solid 3px rgb(241, 198, 198);
+    border-radius: 20px;
+    background: fixed;
+    background-color: rgb(189, 233, 246);
+    display: grid;
+    justify-items: stretch;
+    align-items: stretch;
+    height: 80vh;
+    grid-template: 100% / 30fr 70fr;
+    row-gap: 10px;
+    padding:2rem 2rem;
+    
+}
+.left-container{ 
+    border-radius: 20px 0 0 20px;
+    grid-column: 1;
+    background: url(../style/flower.jpg);
+    background-size: cover;
+    background-attachment:local;
+    background-repeat: no-repeat;
+}
+.small-container{
+    border-radius: 0 20px 20px 0;
+    grid-column: 2;
+    background: fixed;
+    background-color: rgb(254, 255, 255);
+    grid-template:  50% 50fr;
+    row-gap: 1px;
+    padding:3rem 3rem;
+    display: grid;
+    text-align: center;
+    
+    
+}
+.form-group1{
+    grid-column: 1;
+    
+}
+.form-group2{
+    grid-column: 2;
+}
+.form-case{
+    border-radius: 15px;
+    margin: 1rem;
+  border: 1px solid #b6cbeb;
+  box-shadow: 0 0 0 4px #bae3f7;
+}
+button{
+    position:relative; 
+    left:18rem;
+    top:1rem;
+}
+.btn {
+    
+    background: #f0d4d4;
+    border: 0;
+    border-radius: 15px;
+    color: #fff;
+    cursor: pointer;
+    outline: 0;
+    margin-right: 10rem;
+  }
+  .btn:hover {
+    background: #0759d3;
+  }
